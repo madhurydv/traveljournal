@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #F55A5A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.big-daddy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 55%;
+}
+
+.card--list {
+  width: 90%;
+}
+
+.card--image {
+  width: 175px;
+  height: 240px;
+  border-radius: 10px;
+}
+
+.part1 {
+  padding: 30px 40px;
+}
+
+.part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.location--img {
+  width: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+.card {
+  background-color: white;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+}
+
+.date {
+  font-weight: bold;
+}
+
+ul {
+  /* margin-left: -10px; */
+  display: flex;
+}
+
+li {
+  padding-inline: 14px;
+  margin-left: -20px;
+  list-style: none;
+  list-style: none;
+}
+
+.location--text {
+  font-weight: bolder;
+}
+
+.card--title {
+  padding: 7px 0px;
+  font-family: 'Aboreto', cursive;
+  font-weight: bolder;
+  font-size: 30px;
+}
